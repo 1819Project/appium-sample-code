@@ -1,19 +1,12 @@
-exports.ios92 = {
+exports.ios = {
   browserName: '',
   'appium-version': '1.6',
-  platformName: 'iOS',
-  platformVersion: '10.1',
-  deviceName: 'iPhone 5s',
-  app: undefined // will be set later
-};
-
-exports.ios81 = {
-  browserName: '',
-  'appium-version': '1.6',
-  platformName: 'iOS',
-  platformVersion: '10.1',
-  deviceName: 'iPhone Simulator',
-  app: undefined // will be set later
+  platformName: "iOS",
+  platformVersion: "11.2",
+  deviceName: "iPhone 6",
+  // the app is inserted from apps.js in the test, e.g. ios-simple.js
+  app: undefined, // will be set later
+  automationName: "XCUITest"
 };
 
 exports.android18 = {
